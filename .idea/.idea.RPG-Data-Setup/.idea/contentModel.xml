@@ -382,6 +382,18 @@
           <e p="Weapon.cs" t="Include" />
         </e>
         <e p="Tools" t="Include">
+          <e p="EzMsg" t="Include">
+            <e p="Demo" t="Include">
+              <e p="Armor.cs" t="Include" />
+              <e p="IArmor.cs" t="Include" />
+              <e p="IWeapon.cs" t="Include" />
+              <e p="Projectile.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
+            </e>
+            <e p="EzMsg.cs" t="Include" />
+            <e p="EzMsgExtensions.cs" t="Include" />
+            <e p="EzMsgManager.cs" t="Include" />
+          </e>
           <e p="NaughtyAttributes" t="Include">
             <e p="Scripts" t="Include">
               <e p="Core" t="Include">

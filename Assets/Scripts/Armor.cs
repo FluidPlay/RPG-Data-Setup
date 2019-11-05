@@ -6,8 +6,9 @@ using UnityEngine;
 public class Armor : MonoBehaviour, IArmor
 {
     [DisplayScriptableObjectProperty]
-    public IntScriptable currentHealth;
+    public IntVariable currentHealth;
     public float currentDamageMult = 1f;
+    // Usamos um Abstract SO aqui para podermos tratar vários tipos de implementação diferentes
     [DisplayScriptableObjectProperty]
     public AbstractArmorData DefaultData;
     

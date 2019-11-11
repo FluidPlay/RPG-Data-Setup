@@ -364,15 +364,20 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Armor.cs" t="Include" />
+          <e p="DictionaryTypes" t="Include">
+            <e p="StringGameObjectDict.cs" t="Include" />
+          </e>
           <e p="Interfaces" t="Include">
             <e p="IArmor.cs" t="Include" />
             <e p="IWeapon.cs" t="Include" />
           </e>
+          <e p="MedievoProvider.cs" t="Include" />
           <e p="ScriptableObjs" t="Include">
             <e p="AbstractSOs" t="Include">
               <e p="AbstractArmorData.cs" t="Include" />
               <e p="AbstractWeaponData.cs" t="Include" />
             </e>
+            <e p="GameData.cs" t="Include" />
             <e p="IntReference.cs" t="Include" />
             <e p="IntVariable.cs" t="Include" />
             <e p="StandardArmorData.cs" t="Include" />
@@ -604,6 +609,82 @@
             <e p="ScriptableObjectHelper.cs" t="Include" />
             <e p="ScriptableSingleton.cs" t="Include" />
             <e p="UnitData.cs" t="Include" />
+          </e>
+          <e p="SerializableDictionary" t="Include">
+            <e p="Editor" t="Include">
+              <e p="SerializableDictionaryPropertyDrawer.cs" t="Include" />
+            </e>
+            <e p="Example" t="Include">
+              <e p="SerializableDictionaryExample.cs" t="Include" />
+              <e p="UserSerializableDictionaries.cs" t="Include" />
+            </e>
+            <e p="SerializableDictionary.cs" t="Include" />
+            <e p="SerializableHashSet.cs" t="Include" />
+          </e>
+          <e p="Syrinj" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="AnimatorStringHash.cs" t="Include" />
+                <e p="FindAttribute.cs" t="Include" />
+                <e p="FindObjectOfTypeAttribute.cs" t="Include" />
+                <e p="FindRelativeAttribute.cs" t="Include" />
+                <e p="FindResourceOfTypeAttribute.cs" t="Include" />
+                <e p="FindWithTagAttribute.cs" t="Include" />
+                <e p="GetComponentAttribute.cs" t="Include" />
+                <e p="GetComponentInChildrenAttribute.cs" t="Include" />
+                <e p="InjectAttribute.cs" t="Include" />
+                <e p="InstanceAttribute.cs" t="Include" />
+                <e p="ProvidesAttribute.cs" t="Include" />
+                <e p="SingletonAttribute.cs" t="Include" />
+                <e p="UnityConvenienceAttribute.cs" t="Include" />
+                <e p="UnityDependencyAttribute.cs" t="Include" />
+                <e p="UnityInjectorAttribute.cs" t="Include" />
+                <e p="UnityProviderAttribute.cs" t="Include" />
+              </e>
+              <e p="DependencyContainer.cs" t="Include" />
+              <e p="Exceptions" t="Include">
+                <e p="InjectionException.cs" t="Include" />
+              </e>
+              <e p="GameObjectInjector.cs" t="Include" />
+              <e p="Graph" t="Include">
+                <e p="DependencyMap.cs" t="Include" />
+              </e>
+              <e p="Injection" t="Include">
+                <e p="Injectable.cs" t="Include" />
+                <e p="InjectableFactory.cs" t="Include" />
+                <e p="InjectableField.cs" t="Include" />
+                <e p="InjectableProperty.cs" t="Include" />
+              </e>
+              <e p="InjectorComponent.cs" t="Include" />
+              <e p="Provider.cs" t="Include" />
+              <e p="Provision" t="Include">
+                <e p="FieldProvider.cs" t="Include" />
+                <e p="InstanceProvider.cs" t="Include" />
+                <e p="IProvider.cs" t="Include" />
+                <e p="PropertyProvider.cs" t="Include" />
+                <e p="ProviderFactory.cs" t="Include" />
+                <e p="SingletonProvider.cs" t="Include" />
+              </e>
+              <e p="Reflection" t="Include">
+                <e p="AttributeCache.cs" t="Include" />
+                <e p="MemberEvaluator.cs" t="Include" />
+              </e>
+              <e p="Resolvers" t="Include">
+                <e p="AnimatorStringHashResolver.cs" t="Include" />
+                <e p="FindObjectOfTypeResolver.cs" t="Include" />
+                <e p="FindRelativeResolver.cs" t="Include" />
+                <e p="FindResolver.cs" t="Include" />
+                <e p="FindResourceOfTypeResolver.cs" t="Include" />
+                <e p="FindWithTagResolver.cs" t="Include" />
+                <e p="GetComponentInChildrenResolver.cs" t="Include" />
+                <e p="GetComponentResolver.cs" t="Include" />
+                <e p="IResolver.cs" t="Include" />
+                <e p="ResolverGroups.cs" t="Include" />
+              </e>
+              <e p="RuntimeInjectableMonoBehaviour.cs" t="Include" />
+              <e p="SceneInjector.cs" t="Include" />
+              <e p="TransformExtensions.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>

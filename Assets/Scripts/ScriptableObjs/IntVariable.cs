@@ -22,7 +22,7 @@ public class IntVariable: ScriptableObject
 
     private void OnEnable()
     {
-        if (ResetOnPlay && _value != null)
+        if (ResetOnPlay)
             _value = DefaultValue;
     }
     

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8d927bd4c0699c48b83ee83e4443c64, type: 3}
   m_Name: WeaponAxe
   m_EditorClassIdentifier: 
-  Damage: 0
-  Reload: 0
+  Damage: 15
+  Reload: 1

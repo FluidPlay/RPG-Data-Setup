@@ -6,9 +6,10 @@ using Syrinj;
 
 public class MedievoProvider : MonoBehaviour
 {
-    [Provides, FindResourceOfType(typeof(GameData))]
+    // TODO: Make Private
     [DisplayScriptableObjectProperty]
-    public GameData _gameData; // TODO: Make Private
+    [Provides, FindResourceOfType(typeof(GameData))]
+    public GameData _gameData;
 
     public void Start()
     {

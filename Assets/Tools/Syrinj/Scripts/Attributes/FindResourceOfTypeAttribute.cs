@@ -8,9 +8,7 @@ namespace Syrinj
         public readonly Type ComponentType;
 
         public FindResourceOfTypeAttribute()
-        {
-            
-        }
+        { }
 
         public FindResourceOfTypeAttribute(Type componentType)
         {
